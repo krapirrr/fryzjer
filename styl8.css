@@ -1,10 +1,50 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    text-align: center;
+}
+h4 {
+    font-size: 200%;
+}
+img {
+    border-radius: 40px;
+    margin: 20px;
+}
+a {
+    color: white;
+}
+input {
+    margin: 7px;
+}
 .box {
     display: flex;
 }
 .col-9 {
     width: 72%;
 }
-.col-3 {
+.col-9 .blok-1 {
+    background-color: #795548;
+    font-size: 170%;
+}
+.col-9 .blok-2 {
+    height: 400px;
+
+}
+.col-3 .blok-1, .col-3 .blok-2 {
    width: 400px;
-   
+   background-color: BCAAA4;
+   color: 795548;
+}
+table {
+    border: 1px solid #795548 ;
+    width: 80%;
+}
+
+table:hover {
+    background-color: sienna;
+    
+}
+footer {
+    border: 1px solid #795548 ;
+    color: fff;
+    padding: 20px;
 }
